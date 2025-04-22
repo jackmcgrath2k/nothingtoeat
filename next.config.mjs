@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    // No "output: 'export'"
-    // No "experimental.appDir = false"
+    // Add any other custom config here
   };
   
-  module.exports = nextConfig;
+  export default nextConfig;
   
