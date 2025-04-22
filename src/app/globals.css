@@ -12,9 +12,11 @@
   --font-mono: var(--font-geist-mono);
 }
 
+
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #FFC300;
     --foreground: #ededed;
   }
 }
@@ -24,3 +26,45 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Custom Keyframes for the Text Animation */
+@keyframes throw {
+  0% {
+    transform: translate(10px, 10px) rotate(0deg); /* Start just above the button */
+    opacity: 1;
+  }
+  50% {
+    transform: translate(100px, -100px) rotate(45deg); /* Move diagonally up-right with rotation */
+    opacity: 0;
+  }
+  100% {
+    transform: translate(100px, -100px) rotate(45deg); /* Final position off-screen with full rotation */
+    opacity: 0; /* Fade out */
+  }
+}
+
+/* Opposite Animation */
+@keyframes throw-opposite {
+  0% {
+    transform: translate(10px, 10px) rotate(0deg); /* Start just above the button */
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-100px, 100px) rotate(-45deg); /* Move diagonally down-left with opposite rotation */
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-100px, 100px) rotate(-45deg); /* Final position off-screen with opposite rotation */
+    opacity: 0; /* Fade out */
+  }
+}
+
+/* Apply the throwing animation class */
+.animate-throw {
+  animation: throw 5s ease-out forwards;
+}
+
+/* Apply the opposite throwing animation class */
+.animate-throw-opposite {
+  animation: throw-opposite 5s ease-out forwards;
+}
+
