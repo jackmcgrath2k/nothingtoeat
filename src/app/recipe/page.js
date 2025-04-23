@@ -120,6 +120,7 @@ function RecipeContent() {
 
 export default function RecipePage() {
   return (
+    // Wrap `RecipeContent` in a Suspense boundary to handle async data fetching/loading
     <Suspense fallback={<div className="text-white text-sm">Loading recipe...</div>}>
       <RecipeContent />
     </Suspense>
