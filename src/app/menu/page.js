@@ -36,14 +36,12 @@ export default function Menu() {
 
   return (
     <main className={`min-h-screen text-white flex flex-col items-center justify-center px-6 transition-colors duration-500 ${vegetarian ? 'bg-green-700' : ''}`}>
-<button
-  onClick={toggleVegetarian}
-  className={`mb-8 px-6 py-2 rounded-full font-bold transition ${vegetarian ? 'bg-green-700 text-white border-1 border-white' : 'bg-white text-black border-2 border-transparent'}`}
->
-  Vegetarian
-</button>
-
-
+      <button
+        onClick={toggleVegetarian}
+        className={`mb-8 px-6 py-2 rounded-full font-bold transition ${vegetarian ? 'bg-green-700 text-white border-2 border-white' : 'bg-white text-black border-2 border-transparent'}`}
+      >
+        Vegetarian
+      </button>
 
       <ul className="flex flex-col gap-6 text-4xl font-bold uppercase leading-none">
         <Link href={buildLink("breakfast")} passHref>
