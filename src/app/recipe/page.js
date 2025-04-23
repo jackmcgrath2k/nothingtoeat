@@ -1,52 +1,27 @@
 'use client';
 
-import { useState, useEffect, Suspense } from 'react';
-import { useSearchParams } from 'next/navigation'; // Hook requires client-side rendering
-import { cardData } from '../data'; // Mock data
+import { useState, Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
+import { cardData } from '../data';
 import Image from 'next/image';
 import Link from 'next/link';
 import ButtonWithTextEffect from '../components/Button';
 
-// RecipeContent component
 function RecipeContent() {
   const searchParams = useSearchParams();
   const category = searchParams.get('category');
-  const vegetarianQuery = searchParams.get('vegetarian');
-  const isVegetarian = vegetarianQuery === 'true';
-
-  const [recipe, setRecipe] = useState(null);
-
-  useEffect(() => {
-    if (category) {
-      const filteredRecipes = cardData.filter(recipe => {
-        const isMatchingCategory = recipe.category.includes(category?.replace('vegetarian_', ''));
-        const isVegetarianCategory = isVegetarian ? recipe.category.includes('vegetarian') : true;
-        return isMatchingCategory && isVegetarianCategory;
-      });
-
-      if (filteredRecipes.length > 0) {
-        setRecipe(filteredRecipes[0]);
-      }
-    }
-  }, [category, isVegetarian]);
+  const filteredRecipes = cardData.filter(recipe => recipe.category.includes(category));
+  const [recipe, setRecipe] = useState(filteredRecipes[0]);
 
   const getRandomRecipe = () => {
-    const filteredRecipes = cardData.filter(recipe => {
-      const isMatchingCategory = recipe.category.includes(category?.replace('vegetarian_', ''));
-      const isVegetarianCategory = isVegetarian ? recipe.category.includes('vegetarian') : true;
-      return isMatchingCategory && isVegetarianCategory;
-    });
-
     const randomIndex = Math.floor(Math.random() * filteredRecipes.length);
     setRecipe(filteredRecipes[randomIndex]);
   };
 
-  if (!recipe) {
-    return <div className="text-sm text-white">No recipes found for this category.</div>;
-  }
+  if (filteredRecipes.length === 0) return <div className="text-sm text-white">No recipes found for this category.</div>;
 
   return (
-    <main className={`min-h-screen flex flex-col items-center justify-center text-black px-4 py-20 relative ${isVegetarian ? 'bg-green-700' : ''}`}>
+    <main className="min-h-screen flex flex-col items-center justify-center text-black px-4 py-16 relative">
       {/* Back Arrow */}
       <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
         <Link href="/menu">
@@ -118,8 +93,7 @@ function RecipeContent() {
   );
 }
 
-// RecipePage component - use Suspense here to handle async loading
-export default function RecipePage() {
+export default function Recipe() {
   return (
     <Suspense fallback={<div className="text-white text-sm">Loading recipe...</div>}>
       <RecipeContent />
