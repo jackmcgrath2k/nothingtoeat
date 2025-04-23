@@ -26,70 +26,71 @@ function RecipeContent() {
     setRecipe(filteredRecipes[randomIndex]);
   };
 
-  if (filteredRecipes.length === 0) return <div>No recipes found for this category.</div>;
+  if (filteredRecipes.length === 0) return <div className="text-sm text-white">No recipes found for this category.</div>;
 
   return (
-    <main className={`min-h-screen flex flex-col items-center justify-center text-black px-4 py-20 relative ${isVegetarian ? 'bg-green-700' : ''}`}>
+    <main className="min-h-screen flex flex-col items-center justify-center text-black px-4 py-16 relative">
       {/* Back Arrow */}
-      <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-10">
+      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
         <Link href="/menu">
-          <Image src="/Frame.svg" alt="Back to menu" width={30} height={30} priority />
+          <Image src="/Frame.svg" alt="Back to menu" width={24} height={24} priority />
         </Link>
       </div>
 
       <div className="w-full max-w-sm rounded-lg uppercase font-mono">
-        <div className="px-5 pb-5 flex flex-col h-full">
-          <h5 className="text-5xl font-semibold tracking-tight text-white">
+        <div className="px-4 pb-4 flex flex-col h-full">
+          <h5 className="text-2xl font-semibold tracking-tight text-white mb-1 text-center">
             {recipe.title.toUpperCase()}
           </h5>
-          <p className="text-md text-white mt-1">
+          <p className="text-xs text-white mb-2 text-center">
             TIME: {recipe.time ? recipe.time.toUpperCase() : 'N/A'}
           </p>
 
-          <div className="flex flex-wrap gap-2 mb-8 mt-4">
+          <div className="flex flex-wrap gap-1.5 mb-6 mt-2 justify-center">
             {recipe.allergens?.length > 0 ? (
               recipe.allergens.map((item, index) => (
                 <span
                   key={index}
-                  className="bg-red-100 text-red-800 text-xs font-medium px-3 py-1 rounded-full"
+                  className="bg-red-100 text-red-800 text-[10px] font-medium px-2 py-0.5 rounded-full"
                 >
                   {item.toUpperCase()}
                 </span>
               ))
             ) : (
-              <span className="text-sm text-gray-400">NO ALLERGENS</span>
+              <span className="text-xs text-gray-400">NO ALLERGENS</span>
             )}
           </div>
 
-          <ol className="list-none space-y-2 text-md text-white">
+          <ol className="list-none space-y-1 text-sm text-white">
             {recipe.info?.length > 0 ? (
               recipe.info.map((step, index) => (
-                <li key={index} className="bg-black/5 px-4 py-2 rounded-md shadow-md">
+                <li key={index} className="bg-black/5 px-3 py-1.5 rounded-md shadow-sm text-xs">
                   {step.toUpperCase()}
                 </li>
               ))
             ) : (
-              <li className="shadow-md bg-black/10 px-4 py-2 rounded-md">NO STEPS PROVIDED</li>
+              <li className="shadow-sm bg-black/10 px-3 py-1.5 rounded-md text-xs">NO STEPS PROVIDED</li>
             )}
           </ol>
 
-          <div className="flex gap-1.5 mt-8 justify-center flex-wrap flex-grow overflow-auto max-h-[250px] sm:max-h-[200px]">
+          <div className="flex gap-1 mt-6 justify-center flex-wrap flex-grow overflow-auto max-h-[180px] sm:max-h-[160px]">
             {recipe.ingredients?.length > 0 ? (
               recipe.ingredients.map((ingredient, index) => (
                 <span
                   key={index}
-                  className="border border-white bg-white text-black text-xs font-semibold whitespace-nowrap px-3 py-2 sm:px-3 sm:py-2 rounded-md shadow-md"
+                  className="border border-white bg-white text-black text-[10px] font-semibold whitespace-nowrap px-2 py-1 rounded-md shadow-sm"
                 >
                   {ingredient.toUpperCase()}
                 </span>
               ))
             ) : (
-              <span className="text-sm text-gray-400">NO INGREDIENTS</span>
+              <span className="text-xs text-gray-400">NO INGREDIENTS</span>
             )}
           </div>
         </div>
       </div>
 
+      {/* Big Beautiful Button */}
       <div className="fixed bottom-16 left-1/2 transform -translate-x-1/2 z-20">
         <ButtonWithTextEffect
           onClick={getRandomRecipe}
@@ -102,7 +103,7 @@ function RecipeContent() {
 
 export default function Recipe() {
   return (
-    <Suspense fallback={<div>Loading recipe...</div>}>
+    <Suspense fallback={<div className="text-white text-sm">Loading recipe...</div>}>
       <RecipeContent />
     </Suspense>
   );
