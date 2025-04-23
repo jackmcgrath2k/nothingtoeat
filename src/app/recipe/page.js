@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { cardData } from '../data';
 import Image from 'next/image';
@@ -23,7 +23,6 @@ function RecipeContent() {
         return isMatchingCategory && isVegetarianCategory;
       });
 
-      // Set the initial recipe if available
       if (filteredRecipes.length > 0) {
         setRecipe(filteredRecipes[0]);
       }
@@ -119,6 +118,10 @@ function RecipeContent() {
   );
 }
 
-export default function Recipe() {
-  return <RecipeContent />;
+export default function RecipePage() {
+  return (
+    <Suspense fallback={<div className="text-white text-sm">Loading recipe...</div>}>
+      <RecipeContent />
+    </Suspense>
+  );
 }
