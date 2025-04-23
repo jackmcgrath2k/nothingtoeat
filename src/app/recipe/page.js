@@ -1,12 +1,13 @@
 'use client';
 
 import { useState, useEffect, Suspense } from 'react';
-import { useSearchParams } from 'next/navigation';
-import { cardData } from '../data';
+import { useSearchParams } from 'next/navigation'; // Hook requires client-side rendering
+import { cardData } from '../data'; // Mock data
 import Image from 'next/image';
 import Link from 'next/link';
 import ButtonWithTextEffect from '../components/Button';
 
+// RecipeContent component
 function RecipeContent() {
   const searchParams = useSearchParams();
   const category = searchParams.get('category');
@@ -117,6 +118,7 @@ function RecipeContent() {
   );
 }
 
+// RecipePage component - use Suspense here to handle async loading
 export default function RecipePage() {
   return (
     <Suspense fallback={<div className="text-white text-sm">Loading recipe...</div>}>
