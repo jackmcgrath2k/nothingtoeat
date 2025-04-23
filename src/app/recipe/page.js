@@ -46,7 +46,6 @@ function RecipeContent() {
 
   return (
     <main className={`min-h-screen flex flex-col items-center justify-center text-black px-4 py-20 relative ${isVegetarian ? 'bg-green-700' : ''}`}>
-      
       {/* Back Arrow */}
       <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
         <Link href="/menu">
@@ -120,7 +119,6 @@ function RecipeContent() {
 
 export default function RecipePage() {
   return (
-    // Wrap `RecipeContent` in a Suspense boundary to handle async data fetching/loading
     <Suspense fallback={<div className="text-white text-sm">Loading recipe...</div>}>
       <RecipeContent />
     </Suspense>
