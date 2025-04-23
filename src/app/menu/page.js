@@ -7,11 +7,13 @@ export default function Menu() {
   const router = useRouter();
   const [vegetarian, setVegetarian] = useState(false);
 
-  // Check if the vegetarian state is present in the URL when the component mounts
+  // Only run the effect on the client
   useEffect(() => {
-    const queryVegetarian = new URLSearchParams(window.location.search).get("vegetarian");
-    if (queryVegetarian === "true") {
-      setVegetarian(true);
+    if (typeof window !== "undefined") {
+      const queryVegetarian = new URLSearchParams(window.location.search).get("vegetarian");
+      if (queryVegetarian === "true") {
+        setVegetarian(true);
+      }
     }
   }, []);
 
@@ -19,7 +21,7 @@ export default function Menu() {
     const category = vegetarian ? `vegetarian_${baseCategory}` : baseCategory;
     return {
       pathname: "/recipe",
-      query: { category, vegetarian: vegetarian.toString() },  // Add vegetarian state to the query params
+      query: { category, vegetarian: vegetarian.toString() },
     };
   };
 
@@ -27,23 +29,19 @@ export default function Menu() {
     const newVegetarianState = !vegetarian;
     setVegetarian(newVegetarianState);
 
-    // Ensure the URL is updated with the new vegetarian state as a string
+    // Update the URL with the new vegetarian state
     const newUrl = `/menu?vegetarian=${newVegetarianState.toString()}`;
-
-    // Update the URL to reflect the new vegetarian state
-    router.push(newUrl);
+    router.push(newUrl);  // This will update the URL without refreshing the page
   };
 
   return (
     <main className={`min-h-screen text-white flex flex-col items-center justify-center px-6 transition-colors duration-500 ${vegetarian ? 'bg-green-700' : ''}`}>
-<button
-  onClick={toggleVegetarian}
-  className={`mb-8 px-6 py-2 rounded-full font-bold transition ${vegetarian ? 'bg-green-700 text-white border-1 border-white' : 'bg-white text-black border-2 border-transparent'}`}
->
-  Vegetarian
-</button>
-
-
+      <button
+        onClick={toggleVegetarian}
+        className={`mb-8 px-6 py-2 rounded-full font-bold transition ${vegetarian ? 'bg-green-700 text-white border-1 border-white' : 'bg-white text-black border-2 border-transparent'}`}
+      >
+        Vegetarian
+      </button>
 
       <ul className="flex flex-col gap-6 text-4xl font-bold uppercase leading-none">
         <Link href={buildLink("breakfast")} passHref>
