@@ -6003,8 +6003,2064 @@ export const cardData = [
                                       ],
                                       allergens: ["Egg", "Fish"],
                                       category: ["dinner"]
-                                    }
+                                    },
+                                      {
+                                        id: 315,
+                                        title: "Avocado Toast with Poached Eggs",
+                                        user: "Hungr Team",
+                                        rating: "4.7",
+                                        time: "10 mins",
+                                        difficulty: "2/5",
+                                        info: [
+                                          "Step 1: Toast the bread.",
+                                          "Step 2: Mash avocado and spread on the toast.",
+                                          "Step 3: Poach the eggs and place them on top.",
+                                          "Step 4: Season with salt and pepper."
+                                        ],
+                                        ingredients: ["Avocado", "Eggs", "Bread", "Salt", "Pepper"],
+                                        allergens: ["egg", "gluten"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 316,
+                                        title: "Vegan Pancakes",
+                                        user: "Hungr Team",
+                                        rating: "4.8",
+                                        time: "15 mins",
+                                        difficulty: "3/5",
+                                        info: [
+                                          "Step 1: Mix flour, almond milk, and baking powder.",
+                                          "Step 2: Cook on a hot griddle until golden brown.",
+                                          "Step 3: Serve with maple syrup and fruit."
+                                        ],
+                                        ingredients: ["Flour", "Almond Milk", "Baking Powder", "Maple Syrup", "Fruit"],
+                                        allergens: ["gluten", "nuts"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 317,
+                                        title: "Greek Yogurt Parfait",
+                                        user: "Hungr Team",
+                                        rating: "4.6",
+                                        time: "5 mins",
+                                        difficulty: "1/5",
+                                        info: [
+                                          "Step 1: Layer Greek yogurt, granola, and fresh berries in a glass.",
+                                          "Step 2: Drizzle with honey and serve."
+                                        ],
+                                        ingredients: ["Greek Yogurt", "Granola", "Berries", "Honey"],
+                                        allergens: ["dairy", "gluten"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 318,
+                                        title: "Smoothie Bowl",
+                                        user: "Hungr Team",
+                                        rating: "4.5",
+                                        time: "10 mins",
+                                        difficulty: "2/5",
+                                        info: [
+                                          "Step 1: Blend frozen fruits, almond milk, and protein powder.",
+                                          "Step 2: Pour into a bowl and top with granola, seeds, and berries."
+                                        ],
+                                        ingredients: ["Frozen Fruit", "Almond Milk", "Protein Powder", "Granola", "Seeds", "Berries"],
+                                        allergens: ["nuts"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 319,
+                                        title: "Overnight Oats",
+                                        user: "Hungr Team",
+                                        rating: "4.7",
+                                        time: "5 mins prep, 12 hours chill",
+                                        difficulty: "1/5",
+                                        info: [
+                                          "Step 1: Combine oats, chia seeds, almond milk, and sweetener in a jar.",
+                                          "Step 2: Refrigerate overnight and enjoy in the morning."
+                                        ],
+                                        ingredients: ["Oats", "Chia Seeds", "Almond Milk", "Sweetener"],
+                                        allergens: ["nuts"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 320,
+                                        title: "Veggie Omelette",
+                                        user: "Hungr Team",
+                                        rating: "4.4",
+                                        time: "10 mins",
+                                        difficulty: "2/5",
+                                        info: [
+                                          "Step 1: Whisk eggs and pour into a hot pan.",
+                                          "Step 2: Add chopped vegetables like bell peppers, onions, and spinach.",
+                                          "Step 3: Cook until the omelette is set and serve."
+                                        ],
+                                        ingredients: ["Eggs", "Bell Peppers", "Onions", "Spinach"],
+                                        allergens: ["egg"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 321,
+                                        title: "Mango Chia Pudding",
+                                        user: "Hungr Team",
+                                        rating: "4.8",
+                                        time: "5 mins prep, 3 hours chill",
+                                        difficulty: "1/5",
+                                        info: [
+                                          "Step 1: Mix chia seeds with almond milk and mango puree.",
+                                          "Step 2: Refrigerate for at least 3 hours, then serve with fresh mango on top."
+                                        ],
+                                        ingredients: ["Chia Seeds", "Almond Milk", "Mango Puree", "Mango"],
+                                        allergens: ["nuts"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 322,
+                                        title: "Vegetable Frittata",
+                                        user: "Hungr Team",
+                                        rating: "4.6",
+                                        time: "30 mins",
+                                        difficulty: "3/5",
+                                        info: [
+                                          "Step 1: Whisk eggs and pour into a skillet with sautéed vegetables.",
+                                          "Step 2: Bake in the oven until set and golden."
+                                        ],
+                                        ingredients: ["Eggs", "Zucchini", "Bell Peppers", "Spinach", "Cheese"],
+                                        allergens: ["egg", "dairy"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 323,
+                                        title: "Tofu Scramble",
+                                        user: "Hungr Team",
+                                        rating: "4.5",
+                                        time: "15 mins",
+                                        difficulty: "2/5",
+                                        info: [
+                                          "Step 1: Crumble tofu and sauté with turmeric and veggies.",
+                                          "Step 2: Cook until golden and serve with toast."
+                                        ],
+                                        ingredients: ["Tofu", "Turmeric", "Bell Peppers", "Onions", "Spinach", "Bread"],
+                                        allergens: ["soy", "gluten"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 324,
+                                        title: "Vegan Breakfast Burrito",
+                                        user: "Hungr Team",
+                                        rating: "4.6",
+                                        time: "15 mins",
+                                        difficulty: "3/5",
+                                        info: [
+                                          "Step 1: Scramble tofu with spices and veggies.",
+                                          "Step 2: Roll the scramble in a tortilla with avocado and salsa."
+                                        ],
+                                        ingredients: ["Tofu", "Spices", "Avocado", "Salsa", "Tortilla"],
+                                        allergens: ["soy", "gluten"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 325,
+                                        title: "Coconut Yogurt Parfait",
+                                        user: "Hungr Team",
+                                        rating: "4.7",
+                                        time: "5 mins",
+                                        difficulty: "1/5",
+                                        info: [
+                                          "Step 1: Layer coconut yogurt with granola and fresh berries.",
+                                          "Step 2: Drizzle with honey or agave syrup."
+                                        ],
+                                        ingredients: ["Coconut Yogurt", "Granola", "Berries", "Honey"],
+                                        allergens: ["coconut"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 326,
+                                        title: "Berry Smoothie",
+                                        user: "Hungr Team",
+                                        rating: "4.5",
+                                        time: "5 mins",
+                                        difficulty: "1/5",
+                                        info: [
+                                          "Step 1: Blend frozen berries, almond milk, and a sweetener.",
+                                          "Step 2: Serve chilled."
+                                        ],
+                                        ingredients: ["Frozen Berries", "Almond Milk", "Sweetener"],
+                                        allergens: ["nuts"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 327,
+                                        title: "Almond Butter Banana Toast",
+                                        user: "Hungr Team",
+                                        rating: "4.7",
+                                        time: "5 mins",
+                                        difficulty: "1/5",
+                                        info: [
+                                          "Step 1: Spread almond butter on toast.",
+                                          "Step 2: Top with sliced banana and a drizzle of honey."
+                                        ],
+                                        ingredients: ["Almond Butter", "Banana", "Bread", "Honey"],
+                                        allergens: ["nuts", "gluten"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 328,
+                                        title: "Peanut Butter & Banana Smoothie",
+                                        user: "Hungr Team",
+                                        rating: "4.8",
+                                        time: "5 mins",
+                                        difficulty: "1/5",
+                                        info: [
+                                          "Step 1: Blend banana, peanut butter, almond milk, and sweetener.",
+                                          "Step 2: Serve cold."
+                                        ],
+                                        ingredients: ["Banana", "Peanut Butter", "Almond Milk", "Sweetener"],
+                                        allergens: ["nuts"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 329,
+                                        title: "Breakfast Quinoa",
+                                        user: "Hungr Team",
+                                        rating: "4.6",
+                                        time: "15 mins",
+                                        difficulty: "2/5",
+                                        info: [
+                                          "Step 1: Cook quinoa with almond milk and a dash of vanilla.",
+                                          "Step 2: Top with fresh fruit, nuts, and a drizzle of maple syrup."
+                                        ],
+                                        ingredients: ["Quinoa", "Almond Milk", "Vanilla", "Fruit", "Nuts", "Maple Syrup"],
+                                        allergens: ["nuts"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 330,
+                                        title: "Zucchini Fritters",
+                                        user: "Hungr Team",
+                                        rating: "4.4",
+                                        time: "20 mins",
+                                        difficulty: "2/5",
+                                        info: [
+                                          "Step 1: Grate zucchini and mix with flour, egg, and seasonings.",
+                                          "Step 2: Fry spoonfuls in a pan until golden."
+                                        ],
+                                        ingredients: ["Zucchini", "Flour", "Egg", "Salt", "Pepper"],
+                                        allergens: ["egg", "gluten"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 331,
+                                        title: "Cinnamon Apple Toast",
+                                        user: "Hungr Team",
+                                        rating: "4.5",
+                                        time: "10 mins",
+                                        difficulty: "1/5",
+                                        info: [
+                                          "Step 1: Toast bread and top with sliced apples.",
+                                          "Step 2: Sprinkle with cinnamon and drizzle with honey."
+                                        ],
+                                        ingredients: ["Bread", "Apple", "Cinnamon", "Honey"],
+                                        allergens: ["gluten"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 332,
+                                        title: "Chia Seed Jam",
+                                        user: "Hungr Team",
+                                        rating: "4.7",
+                                        time: "10 mins",
+                                        difficulty: "1/5",
+                                        info: [
+                                          "Step 1: Blend berries with chia seeds and sweetener.",
+                                          "Step 2: Let the jam thicken for about 10 minutes."
+                                        ],
+                                        ingredients: ["Berries", "Chia Seeds", "Sweetener"],
+                                        allergens: [],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 333,
+                                        title: "Sweet Potato Hash",
+                                        user: "Hungr Team",
+                                        rating: "4.8",
+                                        time: "25 mins",
+                                        difficulty: "3/5",
+                                        info: [
+                                          "Step 1: Cube and roast sweet potatoes.",
+                                          "Step 2: Sauté onions and peppers and mix with the roasted potatoes.",
+                                          "Step 3: Top with a fried egg."
+                                        ],
+                                        ingredients: ["Sweet Potato", "Onion", "Bell Pepper", "Egg"],
+                                        allergens: ["egg"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                      {
+                                        id: 334,
+                                        title: "Porridge with Almond Butter",
+                                        user: "Hungr Team",
+                                        rating: "4.6",
+                                        time: "10 mins",
+                                        difficulty: "2/5",
+                                        info: [
+                                          "Step 1: Cook oats with almond milk.",
+                                          "Step 2: Stir in almond butter and sweetener.",
+                                          "Step 3: Serve with sliced banana and chia seeds."
+                                        ],
+                                        ingredients: ["Oats", "Almond Milk", "Almond Butter", "Banana", "Chia Seeds"],
+                                        allergens: ["nuts"],
+                                        category: ["breakfast", "vegetarian"]
+                                      },
+                                        {
+                                          id: 335,
+                                          title: "Avocado & Tomato Salad",
+                                          user: "Hungr Team",
+                                          rating: "4.7",
+                                          time: "10 mins",
+                                          difficulty: "1/5",
+                                          info: [
+                                            "Step 1: Slice avocado and tomatoes.",
+                                            "Step 2: Drizzle with olive oil and lemon juice.",
+                                            "Step 3: Sprinkle with salt, pepper, and fresh herbs."
+                                          ],
+                                          ingredients: ["Avocado", "Tomatoes", "Olive Oil", "Lemon", "Salt", "Pepper", "Herbs"],
+                                          allergens: [],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 336,
+                                          title: "Vegan Banana Bread",
+                                          user: "Hungr Team",
+                                          rating: "4.8",
+                                          time: "1 hour",
+                                          difficulty: "3/5",
+                                          info: [
+                                            "Step 1: Mix mashed bananas with flour, baking soda, and almond milk.",
+                                            "Step 2: Pour into a loaf pan and bake at 350°F (175°C) for 50 minutes."
+                                          ],
+                                          ingredients: ["Bananas", "Flour", "Baking Soda", "Almond Milk"],
+                                          allergens: ["gluten", "nuts"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 337,
+                                          title: "Apple Cinnamon Overnight Oats",
+                                          user: "Hungr Team",
+                                          rating: "4.6",
+                                          time: "5 mins prep, 12 hours chill",
+                                          difficulty: "1/5",
+                                          info: [
+                                            "Step 1: Combine oats, almond milk, cinnamon, and diced apple in a jar.",
+                                            "Step 2: Refrigerate overnight and enjoy in the morning."
+                                          ],
+                                          ingredients: ["Oats", "Almond Milk", "Cinnamon", "Apple"],
+                                          allergens: ["nuts"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 338,
+                                          title: "Vegan Banana Pancakes",
+                                          user: "Hungr Team",
+                                          rating: "4.7",
+                                          time: "15 mins",
+                                          difficulty: "2/5",
+                                          info: [
+                                            "Step 1: Mash banana and mix with flour, almond milk, and baking powder.",
+                                            "Step 2: Cook pancakes on a hot griddle and serve with maple syrup."
+                                          ],
+                                          ingredients: ["Banana", "Flour", "Almond Milk", "Baking Powder", "Maple Syrup"],
+                                          allergens: ["gluten", "nuts"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 339,
+                                          title: "Oatmeal with Berries",
+                                          user: "Hungr Team",
+                                          rating: "4.8",
+                                          time: "10 mins",
+                                          difficulty: "1/5",
+                                          info: [
+                                            "Step 1: Cook oats with milk.",
+                                            "Step 2: Top with fresh berries.",
+                                            "Step 3: Drizzle with honey."
+                                          ],
+                                          ingredients: ["Oats", "Milk", "Berries", "Honey"],
+                                          allergens: ["dairy"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 340,
+                                          title: "Peach Smoothie",
+                                          user: "Hungr Team",
+                                          rating: "4.5",
+                                          time: "5 mins",
+                                          difficulty: "1/5",
+                                          info: [
+                                            "Step 1: Blend frozen peaches with almond milk and honey.",
+                                            "Step 2: Serve chilled."
+                                          ],
+                                          ingredients: ["Peaches", "Almond Milk", "Honey"],
+                                          allergens: ["nuts"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 341,
+                                          title: "Avocado Toast with Chickpeas",
+                                          user: "Hungr Team",
+                                          rating: "4.6",
+                                          time: "10 mins",
+                                          difficulty: "2/5",
+                                          info: [
+                                            "Step 1: Toast the bread and mash avocado.",
+                                            "Step 2: Top with seasoned chickpeas and avocado."
+                                          ],
+                                          ingredients: ["Avocado", "Chickpeas", "Bread", "Lemon", "Garlic"],
+                                          allergens: ["gluten"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 342,
+                                          title: "Vegan Sausage and Hash",
+                                          user: "Hungr Team",
+                                          rating: "4.5",
+                                          time: "20 mins",
+                                          difficulty: "3/5",
+                                          info: [
+                                            "Step 1: Sauté vegan sausages with onions and potatoes.",
+                                            "Step 2: Serve hot with a side of greens."
+                                          ],
+                                          ingredients: ["Vegan Sausages", "Onion", "Potatoes", "Greens"],
+                                          allergens: ["gluten"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 343,
+                                          title: "Spinach & Feta Muffins",
+                                          user: "Hungr Team",
+                                          rating: "4.7",
+                                          time: "30 mins",
+                                          difficulty: "2/5",
+                                          info: [
+                                            "Step 1: Mix spinach, feta, flour, and baking powder.",
+                                            "Step 2: Bake until golden brown."
+                                          ],
+                                          ingredients: ["Spinach", "Feta", "Flour", "Baking Powder"],
+                                          allergens: ["dairy", "gluten"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 344,
+                                          title: "Sweet Potato & Black Bean Tacos",
+                                          user: "Hungr Team",
+                                          rating: "4.8",
+                                          time: "20 mins",
+                                          difficulty: "2/5",
+                                          info: [
+                                            "Step 1: Roast sweet potatoes with spices.",
+                                            "Step 2: Fill tortillas with roasted sweet potato and black beans."
+                                          ],
+                                          ingredients: ["Sweet Potato", "Black Beans", "Tortilla", "Spices"],
+                                          allergens: ["gluten"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 345,
+                                          title: "Mango Chia Smoothie",
+                                          user: "Hungr Team",
+                                          rating: "4.7",
+                                          time: "5 mins",
+                                          difficulty: "1/5",
+                                          info: [
+                                            "Step 1: Blend frozen mango, chia seeds, and almond milk.",
+                                            "Step 2: Serve chilled."
+                                          ],
+                                          ingredients: ["Mango", "Chia Seeds", "Almond Milk"],
+                                          allergens: ["nuts"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 346,
+                                          title: "Vegan Scrambled Eggs",
+                                          user: "Hungr Team",
+                                          rating: "4.5",
+                                          time: "10 mins",
+                                          difficulty: "2/5",
+                                          info: [
+                                            "Step 1: Scramble tofu with turmeric and nutritional yeast.",
+                                            "Step 2: Serve with toast or avocado."
+                                          ],
+                                          ingredients: ["Tofu", "Turmeric", "Nutritional Yeast", "Bread", "Avocado"],
+                                          allergens: ["soy", "gluten"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 347,
+                                          title: "Pumpkin Spice Oats",
+                                          user: "Hungr Team",
+                                          rating: "4.6",
+                                          time: "10 mins",
+                                          difficulty: "1/5",
+                                          info: [
+                                            "Step 1: Cook oats with almond milk and pumpkin puree.",
+                                            "Step 2: Top with cinnamon and maple syrup."
+                                          ],
+                                          ingredients: ["Oats", "Almond Milk", "Pumpkin Puree", "Cinnamon", "Maple Syrup"],
+                                          allergens: ["nuts"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 348,
+                                          title: "Coconut & Almond Smoothie",
+                                          user: "Hungr Team",
+                                          rating: "4.7",
+                                          time: "5 mins",
+                                          difficulty: "1/5",
+                                          info: [
+                                            "Step 1: Blend coconut milk, almonds, and honey.",
+                                            "Step 2: Serve chilled."
+                                          ],
+                                          ingredients: ["Coconut Milk", "Almonds", "Honey"],
+                                          allergens: ["nuts"],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                        {
+                                          id: 349,
+                                          title: "Pineapple Mint Smoothie",
+                                          user: "Hungr Team",
+                                          rating: "4.6",
+                                          time: "5 mins",
+                                          difficulty: "1/5",
+                                          info: [
+                                            "Step 1: Blend pineapple with mint and coconut water.",
+                                            "Step 2: Serve chilled."
+                                          ],
+                                          ingredients: ["Pineapple", "Mint", "Coconut Water"],
+                                          allergens: [],
+                                          category: ["breakfast", "vegetarian"]
+                                        },
+                                          {
+                                            id: 350,
+                                            title: "Tomato Basil Soup",
+                                            user: "Hungr Team",
+                                            rating: "4.7",
+                                            time: "30 mins",
+                                            difficulty: "2/5",
+                                            info: [
+                                              "Step 1: Sauté onions and garlic in olive oil.",
+                                              "Step 2: Add tomatoes, basil, and vegetable broth, then simmer.",
+                                              "Step 3: Blend until smooth and serve with crusty bread."
+                                            ],
+                                            ingredients: ["Tomatoes", "Basil", "Onions", "Garlic", "Vegetable Broth", "Bread"],
+                                            allergens: ["gluten"],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 351,
+                                            title: "Vegetarian Burrito Bowl",
+                                            user: "Hungr Team",
+                                            rating: "4.8",
+                                            time: "20 mins",
+                                            difficulty: "2/5",
+                                            info: [
+                                              "Step 1: Cook rice and season with lime juice and cilantro.",
+                                              "Step 2: Assemble the bowl with rice, black beans, avocado, salsa, and corn."
+                                            ],
+                                            ingredients: ["Rice", "Black Beans", "Avocado", "Salsa", "Corn", "Cilantro", "Lime"],
+                                            allergens: ["gluten"],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 352,
+                                            title: "Quinoa Salad with Chickpeas and Feta",
+                                            user: "Hungr Team",
+                                            rating: "4.7",
+                                            time: "25 mins",
+                                            difficulty: "2/5",
+                                            info: [
+                                              "Step 1: Cook quinoa and let it cool.",
+                                              "Step 2: Mix with chickpeas, feta, cucumber, and olive oil.",
+                                              "Step 3: Season with lemon juice, salt, and pepper."
+                                            ],
+                                            ingredients: ["Quinoa", "Chickpeas", "Feta", "Cucumber", "Olive Oil", "Lemon"],
+                                            allergens: ["dairy"],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 353,
+                                            title: "Grilled Vegetable Sandwich",
+                                            user: "Hungr Team",
+                                            rating: "4.6",
+                                            time: "15 mins",
+                                            difficulty: "2/5",
+                                            info: [
+                                              "Step 1: Grill zucchini, bell peppers, and eggplant.",
+                                              "Step 2: Layer grilled veggies on whole wheat bread with hummus and spinach."
+                                            ],
+                                            ingredients: ["Zucchini", "Bell Peppers", "Eggplant", "Whole Wheat Bread", "Hummus", "Spinach"],
+                                            allergens: ["gluten"],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 354,
+                                            title: "Vegetarian Tacos",
+                                            user: "Hungr Team",
+                                            rating: "4.7",
+                                            time: "20 mins",
+                                            difficulty: "2/5",
+                                            info: [
+                                              "Step 1: Sauté onions, bell peppers, and mushrooms.",
+                                              "Step 2: Assemble the tacos with sautéed vegetables, guacamole, and salsa."
+                                            ],
+                                            ingredients: ["Onions", "Bell Peppers", "Mushrooms", "Taco Shells", "Guacamole", "Salsa"],
+                                            allergens: ["gluten"],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 355,
+                                            title: "Lentil and Spinach Stew",
+                                            user: "Hungr Team",
+                                            rating: "4.8",
+                                            time: "45 mins",
+                                            difficulty: "3/5",
+                                            info: [
+                                              "Step 1: Cook lentils in vegetable broth.",
+                                              "Step 2: Add spinach, carrots, onions, and garlic. Simmer until tender."
+                                            ],
+                                            ingredients: ["Lentils", "Spinach", "Carrots", "Onions", "Garlic", "Vegetable Broth"],
+                                            allergens: [],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 356,
+                                            title: "Stuffed Bell Peppers",
+                                            user: "Hungr Team",
+                                            rating: "4.6",
+                                            time: "30 mins",
+                                            difficulty: "2/5",
+                                            info: [
+                                              "Step 1: Cook quinoa or rice.",
+                                              "Step 2: Mix with black beans, corn, and spices, then stuff bell peppers.",
+                                              "Step 3: Bake until peppers are tender."
+                                            ],
+                                            ingredients: ["Bell Peppers", "Quinoa", "Black Beans", "Corn", "Spices"],
+                                            allergens: [],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 357,
+                                            title: "Caprese Sandwich",
+                                            user: "Hungr Team",
+                                            rating: "4.7",
+                                            time: "10 mins",
+                                            difficulty: "1/5",
+                                            info: [
+                                              "Step 1: Layer mozzarella, tomatoes, and basil on whole wheat bread.",
+                                              "Step 2: Drizzle with balsamic vinegar and olive oil."
+                                            ],
+                                            ingredients: ["Mozzarella", "Tomatoes", "Basil", "Whole Wheat Bread", "Balsamic Vinegar", "Olive Oil"],
+                                            allergens: ["dairy", "gluten"],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 358,
+                                            title: "Vegetarian Sushi Rolls",
+                                            user: "Hungr Team",
+                                            rating: "4.5",
+                                            time: "30 mins",
+                                            difficulty: "3/5",
+                                            info: [
+                                              "Step 1: Cook sushi rice and season with rice vinegar and sugar.",
+                                              "Step 2: Roll rice with avocado, cucumber, and carrots in nori sheets."
+                                            ],
+                                            ingredients: ["Sushi Rice", "Avocado", "Cucumber", "Carrots", "Nori Sheets"],
+                                            allergens: ["soy"],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 359,
+                                            title: "Sweet Potato and Black Bean Chili",
+                                            user: "Hungr Team",
+                                            rating: "4.8",
+                                            time: "40 mins",
+                                            difficulty: "2/5",
+                                            info: [
+                                              "Step 1: Sauté onions, garlic, and bell peppers.",
+                                              "Step 2: Add sweet potatoes, black beans, tomatoes, and chili powder. Simmer until tender."
+                                            ],
+                                            ingredients: ["Sweet Potatoes", "Black Beans", "Tomatoes", "Onions", "Garlic", "Bell Peppers", "Chili Powder"],
+                                            allergens: [],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 360,
+                                            title: "Chickpea Salad Sandwich",
+                                            user: "Hungr Team",
+                                            rating: "4.6",
+                                            time: "15 mins",
+                                            difficulty: "1/5",
+                                            info: [
+                                              "Step 1: Mash chickpeas with mayonnaise and mustard.",
+                                              "Step 2: Serve on whole wheat bread with lettuce and tomato."
+                                            ],
+                                            ingredients: ["Chickpeas", "Mayonnaise", "Mustard", "Whole Wheat Bread", "Lettuce", "Tomato"],
+                                            allergens: ["gluten", "soy"],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 361,
+                                            title: "Mushroom and Spinach Risotto",
+                                            user: "Hungr Team",
+                                            rating: "4.7",
+                                            time: "40 mins",
+                                            difficulty: "3/5",
+                                            info: [
+                                              "Step 1: Sauté mushrooms and onions.",
+                                              "Step 2: Add rice, vegetable broth, and spinach, simmer until creamy."
+                                            ],
+                                            ingredients: ["Mushrooms", "Spinach", "Rice", "Vegetable Broth", "Onions"],
+                                            allergens: ["gluten"],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 362,
+                                            title: "Vegetarian Paella",
+                                            user: "Hungr Team",
+                                            rating: "4.8",
+                                            time: "50 mins",
+                                            difficulty: "3/5",
+                                            info: [
+                                              "Step 1: Sauté onions, bell peppers, and tomatoes.",
+                                              "Step 2: Add rice, vegetable broth, and peas, simmer until the rice is tender."
+                                            ],
+                                            ingredients: ["Rice", "Bell Peppers", "Onions", "Tomatoes", "Vegetable Broth", "Peas"],
+                                            allergens: [],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 363,
+                                            title: "Curry Chickpeas and Rice",
+                                            user: "Hungr Team",
+                                            rating: "4.7",
+                                            time: "30 mins",
+                                            difficulty: "2/5",
+                                            info: [
+                                              "Step 1: Cook chickpeas with onions and curry powder.",
+                                              "Step 2: Serve over rice."
+                                            ],
+                                            ingredients: ["Chickpeas", "Onions", "Rice", "Curry Powder"],
+                                            allergens: [],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 364,
+                                            title: "Vegan Caesar Salad",
+                                            user: "Hungr Team",
+                                            rating: "4.6",
+                                            time: "15 mins",
+                                            difficulty: "1/5",
+                                            info: [
+                                              "Step 1: Toss romaine lettuce with vegan Caesar dressing.",
+                                              "Step 2: Add croutons and capers for crunch."
+                                            ],
+                                            ingredients: ["Romaine Lettuce", "Vegan Caesar Dressing", "Croutons", "Capers"],
+                                            allergens: ["gluten"],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 365,
+                                            title: "Butternut Squash and Kale Salad",
+                                            user: "Hungr Team",
+                                            rating: "4.7",
+                                            time: "30 mins",
+                                            difficulty: "2/5",
+                                            info: [
+                                              "Step 1: Roast butternut squash and kale.",
+                                              "Step 2: Toss with quinoa and cranberries."
+                                            ],
+                                            ingredients: ["Butternut Squash", "Kale", "Quinoa", "Cranberries"],
+                                            allergens: [],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          {
+                                            id: 366,
+                                            title: "Avocado Chickpea Salad",
+                                            user: "Hungr Team",
+                                            rating: "4.8",
+                                            time: "15 mins",
+                                            difficulty: "1/5",
+                                            info: [
+                                              "Step 1: Mash avocado and chickpeas together.",
+                                              "Step 2: Add diced cucumber, red onion, and cilantro."
+                                            ],
+                                            ingredients: ["Avocado", "Chickpeas", "Cucumber", "Red Onion", "Cilantro"],
+                                            allergens: [],
+                                            category: ["lunch", "vegetarian"]
+                                          },
+                                          
+                                            {
+                                              id: 367,
+                                              title: "Lentil Tacos",
+                                              user: "Hungr Team",
+                                              rating: "4.7",
+                                              time: "25 mins",
+                                              difficulty: "2/5",
+                                              info: [
+                                                "Step 1: Cook lentils with onions, garlic, and taco seasoning.",
+                                                "Step 2: Serve in taco shells with lettuce, salsa, and avocado."
+                                              ],
+                                              ingredients: ["Lentils", "Onions", "Garlic", "Taco Seasoning", "Taco Shells", "Lettuce", "Salsa", "Avocado"],
+                                              allergens: ["gluten"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 368,
+                                              title: "Vegetarian Pho",
+                                              user: "Hungr Team",
+                                              rating: "4.8",
+                                              time: "40 mins",
+                                              difficulty: "3/5",
+                                              info: [
+                                                "Step 1: Prepare vegetable broth with ginger, garlic, and spices.",
+                                                "Step 2: Cook rice noodles and add to the broth with tofu, mushrooms, and herbs."
+                                              ],
+                                              ingredients: ["Rice Noodles", "Vegetable Broth", "Tofu", "Mushrooms", "Ginger", "Garlic", "Herbs"],
+                                              allergens: ["soy"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 369,
+                                              title: "Spaghetti with Pesto",
+                                              user: "Hungr Team",
+                                              rating: "4.7",
+                                              time: "20 mins",
+                                              difficulty: "2/5",
+                                              info: [
+                                                "Step 1: Cook spaghetti according to package instructions.",
+                                                "Step 2: Toss with homemade or store-bought pesto sauce and serve."
+                                              ],
+                                              ingredients: ["Spaghetti", "Basil Pesto", "Parmesan (optional)"],
+                                              allergens: ["gluten", "dairy"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 370,
+                                              title: "Vegan Buddha Bowl",
+                                              user: "Hungr Team",
+                                              rating: "4.6",
+                                              time: "35 mins",
+                                              difficulty: "3/5",
+                                              info: [
+                                                "Step 1: Roast sweet potatoes, chickpeas, and cauliflower.",
+                                                "Step 2: Assemble with quinoa, avocado, and tahini dressing."
+                                              ],
+                                              ingredients: ["Sweet Potatoes", "Chickpeas", "Cauliflower", "Quinoa", "Avocado", "Tahini"],
+                                              allergens: [],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 371,
+                                              title: "Mango Avocado Salad",
+                                              user: "Hungr Team",
+                                              rating: "4.8",
+                                              time: "15 mins",
+                                              difficulty: "1/5",
+                                              info: [
+                                                "Step 1: Dice mango and avocado.",
+                                                "Step 2: Toss with spinach, red onion, and a citrus dressing."
+                                              ],
+                                              ingredients: ["Mango", "Avocado", "Spinach", "Red Onion", "Citrus Dressing"],
+                                              allergens: [],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 372,
+                                              title: "Eggplant Parmesan",
+                                              user: "Hungr Team",
+                                              rating: "4.7",
+                                              time: "40 mins",
+                                              difficulty: "3/5",
+                                              info: [
+                                                "Step 1: Bread and fry eggplant slices.",
+                                                "Step 2: Layer with marinara sauce and mozzarella cheese, bake until golden."
+                                              ],
+                                              ingredients: ["Eggplant", "Marinara Sauce", "Mozzarella Cheese", "Breadcrumbs"],
+                                              allergens: ["gluten", "dairy"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 373,
+                                              title: "Falafel with Hummus",
+                                              user: "Hungr Team",
+                                              rating: "4.8",
+                                              time: "30 mins",
+                                              difficulty: "3/5",
+                                              info: [
+                                                "Step 1: Blend chickpeas with garlic, onions, and herbs, then shape into balls.",
+                                                "Step 2: Fry falafel and serve with hummus and pita."
+                                              ],
+                                              ingredients: ["Chickpeas", "Garlic", "Onions", "Herbs", "Hummus", "Pita"],
+                                              allergens: ["gluten", "soy"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 374,
+                                              title: "Zucchini Noodles with Tomato Sauce",
+                                              user: "Hungr Team",
+                                              rating: "4.6",
+                                              time: "20 mins",
+                                              difficulty: "2/5",
+                                              info: [
+                                                "Step 1: Spiralize zucchini into noodles.",
+                                                "Step 2: Toss with tomato sauce and fresh basil."
+                                              ],
+                                              ingredients: ["Zucchini", "Tomato Sauce", "Basil"],
+                                              allergens: [],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 375,
+                                              title: "Vegetable Stir-Fry",
+                                              user: "Hungr Team",
+                                              rating: "4.7",
+                                              time: "25 mins",
+                                              difficulty: "2/5",
+                                              info: [
+                                                "Step 1: Stir-fry broccoli, carrots, bell peppers, and tofu.",
+                                                "Step 2: Serve with soy sauce and rice."
+                                              ],
+                                              ingredients: ["Broccoli", "Carrots", "Bell Peppers", "Tofu", "Soy Sauce", "Rice"],
+                                              allergens: ["soy", "gluten"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 376,
+                                              title: "Chickpea and Spinach Curry",
+                                              user: "Hungr Team",
+                                              rating: "4.8",
+                                              time: "30 mins",
+                                              difficulty: "3/5",
+                                              info: [
+                                                "Step 1: Sauté onions, garlic, and ginger.",
+                                                "Step 2: Add chickpeas, spinach, tomatoes, and curry spices, simmer."
+                                              ],
+                                              ingredients: ["Chickpeas", "Spinach", "Onions", "Garlic", "Ginger", "Tomatoes", "Curry Spices"],
+                                              allergens: [],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 377,
+                                              title: "Greek Salad with Tofu",
+                                              user: "Hungr Team",
+                                              rating: "4.6",
+                                              time: "20 mins",
+                                              difficulty: "2/5",
+                                              info: [
+                                                "Step 1: Toss cucumbers, tomatoes, olives, and onions.",
+                                                "Step 2: Add tofu and drizzle with olive oil and lemon."
+                                              ],
+                                              ingredients: ["Cucumbers", "Tomatoes", "Olives", "Onions", "Tofu", "Olive Oil", "Lemon"],
+                                              allergens: ["soy"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 378,
+                                              title: "Vegan Grilled Cheese Sandwich",
+                                              user: "Hungr Team",
+                                              rating: "4.7",
+                                              time: "15 mins",
+                                              difficulty: "1/5",
+                                              info: [
+                                                "Step 1: Spread vegan butter on whole wheat bread.",
+                                                "Step 2: Add vegan cheese and grill until golden."
+                                              ],
+                                              ingredients: ["Vegan Butter", "Whole Wheat Bread", "Vegan Cheese"],
+                                              allergens: ["gluten"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 379,
+                                              title: "Vegetarian Shepherd's Pie",
+                                              user: "Hungr Team",
+                                              rating: "4.8",
+                                              time: "45 mins",
+                                              difficulty: "3/5",
+                                              info: [
+                                                "Step 1: Cook lentils with onions, garlic, and carrots.",
+                                                "Step 2: Top with mashed potatoes and bake until golden."
+                                              ],
+                                              ingredients: ["Lentils", "Onions", "Garlic", "Carrots", "Potatoes"],
+                                              allergens: ["gluten", "dairy"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 380,
+                                              title: "Roasted Cauliflower Tacos",
+                                              user: "Hungr Team",
+                                              rating: "4.6",
+                                              time: "30 mins",
+                                              difficulty: "2/5",
+                                              info: [
+                                                "Step 1: Roast cauliflower with taco seasoning.",
+                                                "Step 2: Serve in taco shells with avocado and salsa."
+                                              ],
+                                              ingredients: ["Cauliflower", "Taco Seasoning", "Taco Shells", "Avocado", "Salsa"],
+                                              allergens: ["gluten"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 381,
+                                              title: "Tomato and Mozzarella Panini",
+                                              user: "Hungr Team",
+                                              rating: "4.7",
+                                              time: "15 mins",
+                                              difficulty: "2/5",
+                                              info: [
+                                                "Step 1: Layer tomatoes and mozzarella on ciabatta bread.",
+                                                "Step 2: Grill until golden and serve."
+                                              ],
+                                              ingredients: ["Tomatoes", "Mozzarella", "Ciabatta Bread"],
+                                              allergens: ["gluten", "dairy"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 382,
+                                              title: "Chickpea and Avocado Wrap",
+                                              user: "Hungr Team",
+                                              rating: "4.6",
+                                              time: "20 mins",
+                                              difficulty: "1/5",
+                                              info: [
+                                                "Step 1: Mash chickpeas with avocado, lemon juice, and spices.",
+                                                "Step 2: Spread on a wrap and add lettuce and cucumber."
+                                              ],
+                                              ingredients: ["Chickpeas", "Avocado", "Lemon Juice", "Spices", "Lettuce", "Cucumber", "Wraps"],
+                                              allergens: ["gluten"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 383,
+                                              title: "Butternut Squash Soup",
+                                              user: "Hungr Team",
+                                              rating: "4.8",
+                                              time: "40 mins",
+                                              difficulty: "2/5",
+                                              info: [
+                                                "Step 1: Roast butternut squash with onions and garlic.",
+                                                "Step 2: Blend with vegetable broth and season."
+                                              ],
+                                              ingredients: ["Butternut Squash", "Onions", "Garlic", "Vegetable Broth"],
+                                              allergens: [],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 384,
+                                              title: "Vegan Banh Mi",
+                                              user: "Hungr Team",
+                                              rating: "4.7",
+                                              time: "30 mins",
+                                              difficulty: "3/5",
+                                              info: [
+                                                "Step 1: Prepare pickled vegetables and tofu.",
+                                                "Step 2: Assemble the sandwich with cilantro, cucumber, and baguette."
+                                              ],
+                                              ingredients: ["Pickled Vegetables", "Tofu", "Cilantro", "Cucumber", "Baguette"],
+                                              allergens: ["gluten", "soy"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 385,
+                                              title: "Spinach and Ricotta Stuffed Shells",
+                                              user: "Hungr Team",
+                                              rating: "4.8",
+                                              time: "40 mins",
+                                              difficulty: "3/5",
+                                              info: [
+                                                "Step 1: Cook pasta shells and stuff with spinach and ricotta.",
+                                                "Step 2: Bake with marinara sauce and mozzarella."
+                                              ],
+                                              ingredients: ["Pasta Shells", "Spinach", "Ricotta", "Marinara Sauce", "Mozzarella"],
+                                              allergens: ["gluten", "dairy"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            {
+                                              id: 386,
+                                              title: "Sweet Potato and Black Bean Burritos",
+                                              user: "Hungr Team",
+                                              rating: "4.7",
+                                              time: "30 mins",
+                                              difficulty: "2/5",
+                                              info: [
+                                                "Step 1: Roast sweet potatoes and black beans with spices.",
+                                                "Step 2: Wrap in tortillas with guacamole and salsa."
+                                              ],
+                                              ingredients: ["Sweet Potatoes", "Black Beans", "Spices", "Tortillas", "Guacamole", "Salsa"],
+                                              allergens: ["gluten"],
+                                              category: ["lunch", "vegetarian"]
+                                            },
+                                            
+                                              {
+                                                id: 387,
+                                                title: "Lentil Soup",
+                                                user: "Hungr Team",
+                                                rating: "4.7",
+                                                time: "35 mins",
+                                                difficulty: "2/5",
+                                                info: [
+                                                  "Step 1: Cook lentils with onions, carrots, and celery.",
+                                                  "Step 2: Season with thyme and vegetable broth."
+                                                ],
+                                                ingredients: ["Lentils", "Onions", "Carrots", "Celery", "Vegetable Broth", "Thyme"],
+                                                allergens: ["celery"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 388,
+                                                title: "Veggie Tacos",
+                                                user: "Hungr Team",
+                                                rating: "4.6",
+                                                time: "25 mins",
+                                                difficulty: "2/5",
+                                                info: [
+                                                  "Step 1: Sauté onions, bell peppers, and black beans.",
+                                                  "Step 2: Fill taco shells with the mixture and top with salsa and avocado."
+                                                ],
+                                                ingredients: ["Onions", "Bell Peppers", "Black Beans", "Taco Shells", "Salsa", "Avocado"],
+                                                allergens: ["corn"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 389,
+                                                title: "Spinach and Feta Stuffed Portobello Mushrooms",
+                                                user: "Hungr Team",
+                                                rating: "4.8",
+                                                time: "30 mins",
+                                                difficulty: "2/5",
+                                                info: [
+                                                  "Step 1: Stuff portobello mushrooms with spinach and feta.",
+                                                  "Step 2: Bake in the oven until mushrooms are tender."
+                                                ],
+                                                ingredients: ["Portobello Mushrooms", "Spinach", "Feta"],
+                                                allergens: ["dairy"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 390,
+                                                title: "Chickpea Salad Sandwich",
+                                                user: "Hungr Team",
+                                                rating: "4.7",
+                                                time: "15 mins",
+                                                difficulty: "1/5",
+                                                info: [
+                                                  "Step 1: Mash chickpeas with mayo and seasonings.",
+                                                  "Step 2: Spread the mixture between two slices of bread."
+                                                ],
+                                                ingredients: ["Chickpeas", "Mayo", "Bread", "Seasonings"],
+                                                allergens: ["gluten", "dairy"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 391,
+                                                title: "Vegetable Samosas",
+                                                user: "Hungr Team",
+                                                rating: "4.7",
+                                                time: "45 mins",
+                                                difficulty: "3/5",
+                                                info: [
+                                                  "Step 1: Prepare spiced vegetable filling.",
+                                                  "Step 2: Stuff the filling into pastry wrappers and fry."
+                                                ],
+                                                ingredients: ["Potatoes", "Carrots", "Peas", "Spices", "Pastry Wrappers"],
+                                                allergens: ["gluten"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 392,
+                                                title: "Vegetarian Quinoa Salad",
+                                                user: "Hungr Team",
+                                                rating: "4.8",
+                                                time: "25 mins",
+                                                difficulty: "2/5",
+                                                info: [
+                                                  "Step 1: Cook quinoa and mix with cucumbers, tomatoes, and feta.",
+                                                  "Step 2: Drizzle with olive oil and lemon dressing."
+                                                ],
+                                                ingredients: ["Quinoa", "Cucumbers", "Tomatoes", "Feta", "Olive Oil", "Lemon"],
+                                                allergens: ["dairy"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 393,
+                                                title: "Stuffed Bell Peppers",
+                                                user: "Hungr Team",
+                                                rating: "4.6",
+                                                time: "40 mins",
+                                                difficulty: "3/5",
+                                                info: [
+                                                  "Step 1: Stuff bell peppers with rice, black beans, and cheese.",
+                                                  "Step 2: Bake until peppers are tender."
+                                                ],
+                                                ingredients: ["Bell Peppers", "Rice", "Black Beans", "Cheese"],
+                                                allergens: ["dairy"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 394,
+                                                title: "Zucchini Noodles with Pesto",
+                                                user: "Hungr Team",
+                                                rating: "4.8",
+                                                time: "20 mins",
+                                                difficulty: "2/5",
+                                                info: [
+                                                  "Step 1: Spiralize zucchini into noodles.",
+                                                  "Step 2: Toss with pesto and pine nuts."
+                                                ],
+                                                ingredients: ["Zucchini", "Pesto", "Pine Nuts"],
+                                                allergens: ["tree nuts"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 395,
+                                                title: "Avocado Toast with Tomato",
+                                                user: "Hungr Team",
+                                                rating: "4.6",
+                                                time: "10 mins",
+                                                difficulty: "1/5",
+                                                info: [
+                                                  "Step 1: Toast bread and mash avocado on top.",
+                                                  "Step 2: Top with sliced tomatoes and a drizzle of olive oil."
+                                                ],
+                                                ingredients: ["Bread", "Avocado", "Tomatoes", "Olive Oil"],
+                                                allergens: ["gluten"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 396,
+                                                title: "Vegan Buddha Bowl",
+                                                user: "Hungr Team",
+                                                rating: "4.9",
+                                                time: "30 mins",
+                                                difficulty: "3/5",
+                                                info: [
+                                                  "Step 1: Combine cooked quinoa, roasted vegetables, and chickpeas in a bowl.",
+                                                  "Step 2: Drizzle with tahini dressing."
+                                                ],
+                                                ingredients: ["Quinoa", "Roasted Vegetables", "Chickpeas", "Tahini"],
+                                                allergens: ["sesame"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 397,
+                                                title: "Vegetarian Sushi Rolls",
+                                                user: "Hungr Team",
+                                                rating: "4.7",
+                                                time: "35 mins",
+                                                difficulty: "3/5",
+                                                info: [
+                                                  "Step 1: Spread rice on nori sheets and add veggies like cucumber and avocado.",
+                                                  "Step 2: Roll up and slice into pieces."
+                                                ],
+                                                ingredients: ["Nori Sheets", "Rice", "Cucumber", "Avocado"],
+                                                allergens: ["soy"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 398,
+                                                title: "Cucumber and Hummus Sandwich",
+                                                user: "Hungr Team",
+                                                rating: "4.5",
+                                                time: "10 mins",
+                                                difficulty: "1/5",
+                                                info: [
+                                                  "Step 1: Spread hummus on bread.",
+                                                  "Step 2: Add cucumber slices and top with another slice of bread."
+                                                ],
+                                                ingredients: ["Bread", "Hummus", "Cucumber"],
+                                                allergens: ["gluten", "sesame"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 399,
+                                                title: "Sweet Potato and Black Bean Burritos",
+                                                user: "Hungr Team",
+                                                rating: "4.8",
+                                                time: "40 mins",
+                                                difficulty: "3/5",
+                                                info: [
+                                                  "Step 1: Roast sweet potatoes and mix with black beans and spices.",
+                                                  "Step 2: Wrap in tortillas and serve."
+                                                ],
+                                                ingredients: ["Sweet Potatoes", "Black Beans", "Tortillas", "Spices"],
+                                                allergens: ["gluten"],
+                                                category: ["lunch", "vegetarian"]
+                                              },
+                                              {
+                                                id: 400,
+                                                title: "Grilled Vegetable Skewers",
+                                                user: "Hungr Team",
+                                                rating: "4.6",
+                                                time: "25 mins",
+                                                difficulty: "2/5",
+                                                info: [
+                                                  "Step 1: Thread vegetables onto skewers.",
+                                                  "Step 2: Grill and serve with dipping sauce."
+                                                ],
+                                                ingredients: ["Bell Peppers", "Zucchini", "Mushrooms", "Onions"],
+                                                allergens: [],
+                                                category: ["lunch", "vegetarian"]
+                                              },
 
+                                              //veggie dinner!!
+                                                {
+                                                  id: 401,
+                                                  title: "Vegetarian Lasagna",
+                                                  user: "Hungr Team",
+                                                  rating: "4.8",
+                                                  time: "1 hour",
+                                                  difficulty: "3/5",
+                                                  info: [
+                                                    "Step 1: Layer pasta, ricotta, spinach, and marinara sauce.",
+                                                    "Step 2: Bake until bubbly and golden."
+                                                  ],
+                                                  ingredients: ["Pasta", "Ricotta", "Spinach", "Marinara Sauce", "Mozzarella"],
+                                                  allergens: ["gluten", "dairy"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 402,
+                                                  title: "Butternut Squash Risotto",
+                                                  user: "Hungr Team",
+                                                  rating: "4.7",
+                                                  time: "40 mins",
+                                                  difficulty: "3/5",
+                                                  info: [
+                                                    "Step 1: Sauté butternut squash with onions.",
+                                                    "Step 2: Stir in Arborio rice and vegetable broth until creamy."
+                                                  ],
+                                                  ingredients: ["Butternut Squash", "Onions", "Arborio Rice", "Vegetable Broth", "Parmesan"],
+                                                  allergens: ["gluten", "dairy"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 403,
+                                                  title: "Eggplant Parmesan",
+                                                  user: "Hungr Team",
+                                                  rating: "4.8",
+                                                  time: "50 mins",
+                                                  difficulty: "3/5",
+                                                  info: [
+                                                    "Step 1: Bread and fry eggplant slices.",
+                                                    "Step 2: Layer with marinara sauce and cheese, then bake."
+                                                  ],
+                                                  ingredients: ["Eggplant", "Bread Crumbs", "Marinara Sauce", "Mozzarella", "Parmesan"],
+                                                  allergens: ["gluten", "dairy"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 404,
+                                                  title: "Vegetarian Stir-Fry with Tofu",
+                                                  user: "Hungr Team",
+                                                  rating: "4.6",
+                                                  time: "30 mins",
+                                                  difficulty: "2/5",
+                                                  info: [
+                                                    "Step 1: Sauté tofu and vegetables in a stir-fry sauce.",
+                                                    "Step 2: Serve over rice."
+                                                  ],
+                                                  ingredients: ["Tofu", "Bell Peppers", "Carrots", "Broccoli", "Soy Sauce", "Rice"],
+                                                  allergens: ["soy", "gluten"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 405,
+                                                  title: "Chickpea and Spinach Curry",
+                                                  user: "Hungr Team",
+                                                  rating: "4.7",
+                                                  time: "40 mins",
+                                                  difficulty: "2/5",
+                                                  info: [
+                                                    "Step 1: Sauté onions, garlic, and ginger.",
+                                                    "Step 2: Add chickpeas, spinach, and curry spices. Simmer."
+                                                  ],
+                                                  ingredients: ["Chickpeas", "Spinach", "Onions", "Garlic", "Ginger", "Curry Powder", "Coconut Milk"],
+                                                  allergens: [],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 406,
+                                                  title: "Mushroom Stroganoff",
+                                                  user: "Hungr Team",
+                                                  rating: "4.7",
+                                                  time: "40 mins",
+                                                  difficulty: "3/5",
+                                                  info: [
+                                                    "Step 1: Sauté mushrooms and onions.",
+                                                    "Step 2: Add vegetable broth, sour cream, and seasonings. Serve over noodles."
+                                                  ],
+                                                  ingredients: ["Mushrooms", "Onions", "Vegetable Broth", "Sour Cream", "Noodles"],
+                                                  allergens: ["dairy", "gluten"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 407,
+                                                  title: "Vegan Chili",
+                                                  user: "Hungr Team",
+                                                  rating: "4.8",
+                                                  time: "45 mins",
+                                                  difficulty: "2/5",
+                                                  info: [
+                                                    "Step 1: Combine beans, tomatoes, and spices in a pot.",
+                                                    "Step 2: Simmer until flavors meld."
+                                                  ],
+                                                  ingredients: ["Beans", "Tomatoes", "Onions", "Garlic", "Chili Powder", "Bell Peppers"],
+                                                  allergens: [],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 408,
+                                                  title: "Cauliflower Steaks with Chimichurri",
+                                                  user: "Hungr Team",
+                                                  rating: "4.7",
+                                                  time: "40 mins",
+                                                  difficulty: "2/5",
+                                                  info: [
+                                                    "Step 1: Slice cauliflower into steaks and roast.",
+                                                    "Step 2: Drizzle with chimichurri sauce."
+                                                  ],
+                                                  ingredients: ["Cauliflower", "Garlic", "Parsley", "Olive Oil", "Vinegar"],
+                                                  allergens: [],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 409,
+                                                  title: "Sweet Potato and Black Bean Tacos",
+                                                  user: "Hungr Team",
+                                                  rating: "4.7",
+                                                  time: "30 mins",
+                                                  difficulty: "2/5",
+                                                  info: [
+                                                    "Step 1: Roast sweet potatoes and mix with black beans.",
+                                                    "Step 2: Serve in taco shells with avocado and salsa."
+                                                  ],
+                                                  ingredients: ["Sweet Potatoes", "Black Beans", "Taco Shells", "Avocado", "Salsa"],
+                                                  allergens: ["corn"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 410,
+                                                  title: "Vegetarian Shepherd's Pie",
+                                                  user: "Hungr Team",
+                                                  rating: "4.8",
+                                                  time: "1 hour",
+                                                  difficulty: "3/5",
+                                                  info: [
+                                                    "Step 1: Prepare a lentil and vegetable filling.",
+                                                    "Step 2: Top with mashed potatoes and bake."
+                                                  ],
+                                                  ingredients: ["Lentils", "Carrots", "Onions", "Peas", "Potatoes", "Vegetable Broth"],
+                                                  allergens: ["dairy"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 411,
+                                                  title: "Stuffed Acorn Squash",
+                                                  user: "Hungr Team",
+                                                  rating: "4.6",
+                                                  time: "50 mins",
+                                                  difficulty: "3/5",
+                                                  info: [
+                                                    "Step 1: Roast acorn squash halves.",
+                                                    "Step 2: Stuff with quinoa, cranberries, and pecans."
+                                                  ],
+                                                  ingredients: ["Acorn Squash", "Quinoa", "Cranberries", "Pecans"],
+                                                  allergens: ["tree nuts"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 412,
+                                                  title: "Vegetarian Paella",
+                                                  user: "Hungr Team",
+                                                  rating: "4.8",
+                                                  time: "45 mins",
+                                                  difficulty: "3/5",
+                                                  info: [
+                                                    "Step 1: Sauté vegetables like bell peppers and peas.",
+                                                    "Step 2: Add rice, saffron, and vegetable broth. Simmer."
+                                                  ],
+                                                  ingredients: ["Rice", "Bell Peppers", "Peas", "Saffron", "Vegetable Broth"],
+                                                  allergens: [],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 413,
+                                                  title: "Vegetarian Sushi Rolls",
+                                                  user: "Hungr Team",
+                                                  rating: "4.7",
+                                                  time: "40 mins",
+                                                  difficulty: "3/5",
+                                                  info: [
+                                                    "Step 1: Spread rice on nori sheets and add vegetables like avocado and cucumber.",
+                                                    "Step 2: Roll up and slice into pieces."
+                                                  ],
+                                                  ingredients: ["Nori Sheets", "Rice", "Avocado", "Cucumber"],
+                                                  allergens: ["soy"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 414,
+                                                  title: "Vegan Burrito Bowls",
+                                                  user: "Hungr Team",
+                                                  rating: "4.6",
+                                                  time: "30 mins",
+                                                  difficulty: "2/5",
+                                                  info: [
+                                                    "Step 1: Layer rice, black beans, corn, and guacamole.",
+                                                    "Step 2: Top with salsa and cilantro."
+                                                  ],
+                                                  ingredients: ["Rice", "Black Beans", "Corn", "Guacamole", "Salsa", "Cilantro"],
+                                                  allergens: [],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 415,
+                                                  title: "Zucchini Fritters",
+                                                  user: "Hungr Team",
+                                                  rating: "4.6",
+                                                  time: "30 mins",
+                                                  difficulty: "2/5",
+                                                  info: [
+                                                    "Step 1: Grate zucchini and mix with flour and spices.",
+                                                    "Step 2: Fry in oil until crispy."
+                                                  ],
+                                                  ingredients: ["Zucchini", "Flour", "Eggs", "Spices"],
+                                                  allergens: ["gluten", "eggs"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 416,
+                                                  title: "Vegan Mushroom Bolognese",
+                                                  user: "Hungr Team",
+                                                  rating: "4.8",
+                                                  time: "40 mins",
+                                                  difficulty: "3/5",
+                                                  info: [
+                                                    "Step 1: Sauté mushrooms and onions.",
+                                                    "Step 2: Add tomato paste, vegetable broth, and simmer."
+                                                  ],
+                                                  ingredients: ["Mushrooms", "Onions", "Tomato Paste", "Vegetable Broth", "Pasta"],
+                                                  allergens: ["gluten"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 417,
+                                                  title: "Lentil and Vegetable Stew",
+                                                  user: "Hungr Team",
+                                                  rating: "4.7",
+                                                  time: "1 hour",
+                                                  difficulty: "2/5",
+                                                  info: [
+                                                    "Step 1: Cook lentils and vegetables in vegetable broth.",
+                                                    "Step 2: Add seasonings and simmer."
+                                                  ],
+                                                  ingredients: ["Lentils", "Carrots", "Potatoes", "Onions", "Vegetable Broth"],
+                                                  allergens: [],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 418,
+                                                  title: "Vegan Tofu Scramble",
+                                                  user: "Hungr Team",
+                                                  rating: "4.7",
+                                                  time: "20 mins",
+                                                  difficulty: "1/5",
+                                                  info: [
+                                                    "Step 1: Crumble tofu and sauté with turmeric and vegetables.",
+                                                    "Step 2: Serve with toast or on its own."
+                                                  ],
+                                                  ingredients: ["Tofu", "Turmeric", "Bell Peppers", "Spinach", "Bread"],
+                                                  allergens: ["gluten"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 419,
+                                                  title: "Sweet Potato and Kale Gnocchi",
+                                                  user: "Hungr Team",
+                                                  rating: "4.7",
+                                                  time: "40 mins",
+                                                  difficulty: "3/5",
+                                                  info: [
+                                                    "Step 1: Prepare gnocchi with sweet potatoes and kale.",
+                                                    "Step 2: Sauté with garlic and olive oil."
+                                                  ],
+                                                  ingredients: ["Sweet Potatoes", "Kale", "Flour", "Garlic", "Olive Oil"],
+                                                  allergens: ["gluten"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                {
+                                                  id: 420,
+                                                  title: "Roasted Vegetable Buddha Bowl",
+                                                  user: "Hungr Team",
+                                                  rating: "4.8",
+                                                  time: "45 mins",
+                                                  difficulty: "2/5",
+                                                  info: [
+                                                    "Step 1: Roast a mix of vegetables like sweet potatoes, carrots, and broccoli.",
+                                                    "Step 2: Serve with quinoa and tahini dressing."
+                                                  ],
+                                                  ingredients: ["Sweet Potatoes", "Carrots", "Broccoli", "Quinoa", "Tahini"],
+                                                  allergens: ["sesame"],
+                                                  category: ["dinner", "vegetarian"]
+                                                },
+                                                  {
+                                                    id: 421,
+                                                    title: "Vegetarian Moussaka",
+                                                    user: "Hungr Team",
+                                                    rating: "4.8",
+                                                    time: "1 hour 10 mins",
+                                                    difficulty: "4/5",
+                                                    info: [
+                                                      "Step 1: Layer roasted eggplant with lentil and tomato sauce.",
+                                                      "Step 2: Top with béchamel sauce and bake."
+                                                    ],
+                                                    ingredients: ["Eggplant", "Lentils", "Tomato Sauce", "Béchamel Sauce", "Cheese"],
+                                                    allergens: ["gluten", "dairy"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 422,
+                                                    title: "Pasta Primavera",
+                                                    user: "Hungr Team",
+                                                    rating: "4.6",
+                                                    time: "30 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Cook pasta and sauté seasonal vegetables.",
+                                                      "Step 2: Toss together with olive oil, garlic, and Parmesan."
+                                                    ],
+                                                    ingredients: ["Pasta", "Seasonal Vegetables", "Olive Oil", "Garlic", "Parmesan"],
+                                                    allergens: ["gluten", "dairy"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 423,
+                                                    title: "Vegetarian Tacos with Tempeh",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "25 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Sauté crumbled tempeh with taco seasoning.",
+                                                      "Step 2: Serve in taco shells with avocado and salsa."
+                                                    ],
+                                                    ingredients: ["Tempeh", "Taco Shells", "Avocado", "Salsa", "Lettuce"],
+                                                    allergens: ["soy", "gluten"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 424,
+                                                    title: "Vegetarian Burritos",
+                                                    user: "Hungr Team",
+                                                    rating: "4.8",
+                                                    time: "35 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Heat beans, rice, and vegetables.",
+                                                      "Step 2: Roll in tortillas with salsa and guacamole."
+                                                    ],
+                                                    ingredients: ["Rice", "Beans", "Vegetables", "Tortillas", "Salsa", "Guacamole"],
+                                                    allergens: ["gluten"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 425,
+                                                    title: "Stuffed Bell Peppers",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "40 mins",
+                                                    difficulty: "3/5",
+                                                    info: [
+                                                      "Step 1: Roast bell peppers and stuff them with quinoa and vegetables.",
+                                                      "Step 2: Bake until tender."
+                                                    ],
+                                                    ingredients: ["Bell Peppers", "Quinoa", "Zucchini", "Tomatoes", "Cheese"],
+                                                    allergens: ["dairy"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 426,
+                                                    title: "Chickpea Salad Sandwich",
+                                                    user: "Hungr Team",
+                                                    rating: "4.6",
+                                                    time: "15 mins",
+                                                    difficulty: "1/5",
+                                                    info: [
+                                                      "Step 1: Mash chickpeas with mayo, mustard, and seasonings.",
+                                                      "Step 2: Spread on whole-grain bread with lettuce."
+                                                    ],
+                                                    ingredients: ["Chickpeas", "Mayo", "Mustard", "Whole Grain Bread", "Lettuce"],
+                                                    allergens: ["gluten", "soy"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 427,
+                                                    title: "Vegetarian Frittata",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "30 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Whisk eggs with vegetables and pour into a hot skillet.",
+                                                      "Step 2: Cook until set and serve."
+                                                    ],
+                                                    ingredients: ["Eggs", "Spinach", "Mushrooms", "Cheese"],
+                                                    allergens: ["eggs", "dairy"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 428,
+                                                    title: "Vegan Pizza",
+                                                    user: "Hungr Team",
+                                                    rating: "4.8",
+                                                    time: "45 mins",
+                                                    difficulty: "3/5",
+                                                    info: [
+                                                      "Step 1: Prepare pizza dough and top with tomato sauce and vegetables.",
+                                                      "Step 2: Bake until crispy."
+                                                    ],
+                                                    ingredients: ["Pizza Dough", "Tomato Sauce", "Bell Peppers", "Olives", "Mushrooms"],
+                                                    allergens: ["gluten"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 429,
+                                                    title: "Spinach and Ricotta Stuffed Pasta Shells",
+                                                    user: "Hungr Team",
+                                                    rating: "4.8",
+                                                    time: "1 hour",
+                                                    difficulty: "3/5",
+                                                    info: [
+                                                      "Step 1: Stuff large pasta shells with spinach and ricotta.",
+                                                      "Step 2: Top with marinara sauce and bake."
+                                                    ],
+                                                    ingredients: ["Pasta Shells", "Ricotta", "Spinach", "Marinara Sauce"],
+                                                    allergens: ["gluten", "dairy"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 430,
+                                                    title: "Lentil Tacos",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "35 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Cook lentils with taco seasoning.",
+                                                      "Step 2: Serve in taco shells with lettuce and cheese."
+                                                    ],
+                                                    ingredients: ["Lentils", "Taco Shells", "Lettuce", "Cheese", "Tomatoes"],
+                                                    allergens: ["gluten", "dairy"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 431,
+                                                    title: "Vegetarian Paella with Tofu",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "45 mins",
+                                                    difficulty: "3/5",
+                                                    info: [
+                                                      "Step 1: Sauté tofu with vegetables and spices.",
+                                                      "Step 2: Add rice and broth and simmer until cooked."
+                                                    ],
+                                                    ingredients: ["Tofu", "Bell Peppers", "Rice", "Saffron", "Vegetable Broth"],
+                                                    allergens: ["soy"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 432,
+                                                    title: "Vegan Lentil Shepherd's Pie",
+                                                    user: "Hungr Team",
+                                                    rating: "4.8",
+                                                    time: "1 hour",
+                                                    difficulty: "3/5",
+                                                    info: [
+                                                      "Step 1: Prepare lentils and vegetables for the filling.",
+                                                      "Step 2: Top with mashed potatoes and bake."
+                                                    ],
+                                                    ingredients: ["Lentils", "Carrots", "Peas", "Potatoes", "Vegetable Broth"],
+                                                    allergens: ["gluten"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 433,
+                                                    title: "Falafel with Hummus and Pita",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "45 mins",
+                                                    difficulty: "3/5",
+                                                    info: [
+                                                      "Step 1: Prepare falafel mix with chickpeas and spices.",
+                                                      "Step 2: Fry falafel and serve with hummus and pita."
+                                                    ],
+                                                    ingredients: ["Chickpeas", "Cilantro", "Tahini", "Pita Bread"],
+                                                    allergens: ["gluten", "sesame"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 434,
+                                                    title: "Vegan Mac and Cheese",
+                                                    user: "Hungr Team",
+                                                    rating: "4.8",
+                                                    time: "30 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Prepare pasta and vegan cheese sauce.",
+                                                      "Step 2: Combine and serve warm."
+                                                    ],
+                                                    ingredients: ["Pasta", "Cashews", "Nutritional Yeast", "Lemon Juice"],
+                                                    allergens: ["nuts", "gluten"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 435,
+                                                    title: "Eggplant and Chickpea Curry",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "45 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Sauté eggplant and chickpeas with curry spices.",
+                                                      "Step 2: Simmer with coconut milk and serve over rice."
+                                                    ],
+                                                    ingredients: ["Eggplant", "Chickpeas", "Coconut Milk", "Curry Powder", "Rice"],
+                                                    allergens: [],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 436,
+                                                    title: "Vegetarian Stuffed Zucchini",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "40 mins",
+                                                    difficulty: "3/5",
+                                                    info: [
+                                                      "Step 1: Hollow out zucchinis and stuff them with a quinoa mixture.",
+                                                      "Step 2: Bake until tender."
+                                                    ],
+                                                    ingredients: ["Zucchini", "Quinoa", "Tomatoes", "Cheese"],
+                                                    allergens: ["dairy"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 437,
+                                                    title: "Cabbage Rolls with Rice",
+                                                    user: "Hungr Team",
+                                                    rating: "4.6",
+                                                    time: "1 hour",
+                                                    difficulty: "3/5",
+                                                    info: [
+                                                      "Step 1: Roll rice and vegetables in cabbage leaves.",
+                                                      "Step 2: Bake in tomato sauce until tender."
+                                                    ],
+                                                    ingredients: ["Cabbage", "Rice", "Tomatoes", "Carrots", "Garlic"],
+                                                    allergens: [],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 438,
+                                                    title: "Cauliflower Curry",
+                                                    user: "Hungr Team",
+                                                    rating: "4.6",
+                                                    time: "40 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Sauté cauliflower with curry spices.",
+                                                      "Step 2: Simmer in coconut milk and serve over rice."
+                                                    ],
+                                                    ingredients: ["Cauliflower", "Coconut Milk", "Curry Powder", "Rice"],
+                                                    allergens: [],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 439,
+                                                    title: "Vegan Buddha Bowl",
+                                                    user: "Hungr Team",
+                                                    rating: "4.8",
+                                                    time: "45 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Roast vegetables and serve over quinoa.",
+                                                      "Step 2: Top with tahini dressing."
+                                                    ],
+                                                    ingredients: ["Sweet Potatoes", "Broccoli", "Quinoa", "Tahini"],
+                                                    allergens: ["sesame"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 440,
+                                                    title: "Vegetarian Quinoa Chili",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "40 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Combine quinoa, beans, tomatoes, and spices in a pot.",
+                                                      "Step 2: Simmer until thickened."
+                                                    ],
+                                                    ingredients: ["Quinoa", "Beans", "Tomatoes", "Chili Powder"],
+                                                    allergens: [],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 441,
+                                                    title: "Vegan Sweet Potato and Black Bean Tacos",
+                                                    user: "Hungr Team",
+                                                    rating: "4.8",
+                                                    time: "35 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Roast sweet potatoes and mix with black beans.",
+                                                      "Step 2: Serve in tortillas with avocado and salsa."
+                                                    ],
+                                                    ingredients: ["Sweet Potatoes", "Black Beans", "Tortillas", "Avocado", "Salsa"],
+                                                    allergens: ["corn"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 442,
+                                                    title: "Lentil and Rice Casserole",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "50 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Layer cooked lentils, rice, and vegetables in a casserole dish.",
+                                                      "Step 2: Bake until golden."
+                                                    ],
+                                                    ingredients: ["Lentils", "Rice", "Carrots", "Onions", "Tomatoes"],
+                                                    allergens: [],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 443,
+                                                    title: "Vegan Sweet Potato Casserole",
+                                                    user: "Hungr Team",
+                                                    rating: "4.8",
+                                                    time: "1 hour",
+                                                    difficulty: "3/5",
+                                                    info: [
+                                                      "Step 1: Roast sweet potatoes and mash them.",
+                                                      "Step 2: Top with a crunchy nut and oat topping and bake."
+                                                    ],
+                                                    ingredients: ["Sweet Potatoes", "Oats", "Nuts", "Maple Syrup"],
+                                                    allergens: ["tree nuts", "gluten"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 444,
+                                                    title: "Mango Avocado Salad",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "15 mins",
+                                                    difficulty: "1/5",
+                                                    info: [
+                                                      "Step 1: Combine diced mango, avocado, and lettuce.",
+                                                      "Step 2: Drizzle with lime and olive oil."
+                                                    ],
+                                                    ingredients: ["Mango", "Avocado", "Lettuce", "Lime", "Olive Oil"],
+                                                    allergens: [],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 445,
+                                                    title: "Zucchini Noodles with Pesto",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "25 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Spiralize zucchini and toss with pesto.",
+                                                      "Step 2: Serve chilled or warm."
+                                                    ],
+                                                    ingredients: ["Zucchini", "Pesto", "Parmesan"],
+                                                    allergens: ["dairy"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 446,
+                                                    title: "Vegan Sweet Potato Stew",
+                                                    user: "Hungr Team",
+                                                    rating: "4.8",
+                                                    time: "50 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Sauté onions and garlic.",
+                                                      "Step 2: Add sweet potatoes, tomatoes, and beans. Simmer."
+                                                    ],
+                                                    ingredients: ["Sweet Potatoes", "Tomatoes", "Beans", "Onions", "Garlic"],
+                                                    allergens: [],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 447,
+                                                    title: "Vegetarian Fajitas",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "30 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Sauté bell peppers and onions.",
+                                                      "Step 2: Serve in fajita tortillas with salsa and guacamole."
+                                                    ],
+                                                    ingredients: ["Bell Peppers", "Onions", "Tortillas", "Guacamole", "Salsa"],
+                                                    allergens: ["gluten"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 448,
+                                                    title: "Vegetarian Tofu Stir Fry",
+                                                    user: "Hungr Team",
+                                                    rating: "4.6",
+                                                    time: "35 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Stir fry tofu with vegetables.",
+                                                      "Step 2: Toss with soy sauce and serve over rice."
+                                                    ],
+                                                    ingredients: ["Tofu", "Bell Peppers", "Broccoli", "Carrots", "Soy Sauce", "Rice"],
+                                                    allergens: ["soy", "gluten"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 449,
+                                                    title: "Roasted Veggie Buddha Bowl",
+                                                    user: "Hungr Team",
+                                                    rating: "4.7",
+                                                    time: "45 mins",
+                                                    difficulty: "2/5",
+                                                    info: [
+                                                      "Step 1: Roast a variety of vegetables like sweet potatoes and cauliflower.",
+                                                      "Step 2: Serve with quinoa and tahini sauce."
+                                                    ],
+                                                    ingredients: ["Sweet Potatoes", "Cauliflower", "Quinoa", "Tahini"],
+                                                    allergens: ["sesame"],
+                                                    category: ["dinner", "vegetarian"]
+                                                  },
+                                                  {
+                                                    id: 450,
+                                                    title: "Stuffed Sweet Potatoes",
+                                                    user: "Hungr Team",
+                                                    rating: "4.6",
+                                                    time: "50 mins",
+                                                    difficulty: "3/5",
+                                                    info: [
+                                                      "Step 1: Bake sweet potatoes until tender.",
+                                                      "Step 2: Stuff with black beans, corn, and avocado."
+                                                    ],
+                                                    ingredients: ["Sweet Potatoes", "Black Beans", "Corn", "Avocado"],
+                                                    allergens: [],
+                                                    category: ["dinner", "vegetarian"]
+                                                  }
+
+                                        
                     ];
 
 

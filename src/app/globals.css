@@ -68,3 +68,7 @@ body {
   animation: throw-opposite 5s ease-out forwards;
 }
 
+/* globals.css */
+html, body {
+  transition: background-color 0.3s ease;
+}

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, Suspense } from 'react';
+import { useState, Suspense, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { cardData } from '../data';
 import Image from 'next/image';
@@ -10,7 +10,15 @@ import ButtonWithTextEffect from '../components/Button';
 function RecipeContent() {
   const searchParams = useSearchParams();
   const category = searchParams.get('category');
-  const filteredRecipes = cardData.filter(recipe => recipe.category.includes(category));
+  const vegetarianQuery = searchParams.get('vegetarian');
+  const isVegetarian = vegetarianQuery === 'true';
+
+  const filteredRecipes = cardData.filter(recipe => {
+    const isMatchingCategory = recipe.category.includes(category?.replace('vegetarian_', ''));
+    const isVegetarianCategory = isVegetarian ? recipe.category.includes('vegetarian') : true;
+    return isMatchingCategory && isVegetarianCategory;
+  });
+
   const [recipe, setRecipe] = useState(filteredRecipes[0]);
 
   const getRandomRecipe = () => {
@@ -21,7 +29,7 @@ function RecipeContent() {
   if (filteredRecipes.length === 0) return <div>No recipes found for this category.</div>;
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center text-black px-4 py-20 relative">
+    <main className={`min-h-screen flex flex-col items-center justify-center text-black px-4 py-20 relative ${isVegetarian ? 'bg-green-700' : ''}`}>
       {/* Back Arrow */}
       <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-10">
         <Link href="/menu">
